@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+ 
+
+    
+    <section class="father-body">
+        <nav>
+            <ul>
+                <a href="#"><li class="ini">Inicio</li></a>
+                <a href="#"><li class="ino">Shop</li></a>
+                <a href="#"><li class="ino">Nosotros</li></a>
+                <a href="#"><li class="ino">Contacto</li></a>
+            </ul>
+        </nav>
+        <div class="tilte-father">
+            <h1> ELECTRO-SHOP </h1>
+            <h2> We are the future </h2>
+        </div>
+        <div class="queHacemos-father">
+            <h3>¿QUE HACEMOS?</h3>
+            <div class="content">
+                    <div class="cardd">
+                        <i class="fa-solid fa-shop"></i>
+                        <p>Tienda Online</p>
+                    </div>
+                    <div class="cardd">
+                        <i class="fa-solid fa-money-check"></i>
+                        <p>Variados Metodos de pagos</p>
+                    </div>
+                    <div class="cardd">
+                        <i class="fa-solid fa-truck-fast"></i>
+                        <p>Entregas Rapidas</p>
+                    </div>
+                    
+            </div>
+        </div>
+        <img src="img/body-img.jpg" alt="">
+    </section>
+    <section class="section-2-Father">
+        <div class="content-sec2">
+            <div class="one-sec2">
+                <h3>300</h3>
+                <p>Clientes satisfechos</p>
+            </div>
+            <div class="one-sec2">
+                <h3>5500</h3>
+                <p>Ventas Exitosas</p>
+            </div>
+            <div class="one-sec2">
+                <h3>15</h3>
+                <p>Años de experiencia</p>
+            </div>
+        </div>
+    </section>
+    <section class="shop-fahter">
+        <div class="head-shop">
+            <div class="tilte-head-shop">
+                <h3>Celulares / Ipads</h3>
+            </div>
+            <div class="carrito-head-shop">
+                <li >
+                    <a
+                    class=" text-white"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modal"
+                    >
+                    <i class="fa-solid fa-cart-shopping" ><span id="carritoContenedor">0</span></i>
+                    </a>
+                </li>
+            </div>
+        </div>
+        <div class="row mt-5" id="contenedor">
+    
+        </div>
+        <div class="container-xl">
+            <div class="modal" tabindex="-1" role="dialog" id="modal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Carrito</h5>
+                    <button
+                    type="button"
+                    class="close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                    >
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" id="vaciarCarrito">
+                    Vaciar carrito
+                    </button>
+                    <button type="button" id="procesarCompra" class="btn btn-primary">
+                    Continuar compra
+                    </button>
+                    <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal">
+                    Cerrar
+                    </button>
+                    <span>Precio total:</span>
+                    <p class="text-center" id="precioTotal"></p>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+    </section>
+    <section class="form-father">
+        <div class="head-form-father">
+            <h3>CONTACTATE CON NOSOTROS</h3>
+            <p>¿Tenes alguna consulta?</p>
+        </div>
+        
+        <div class="father-content">
+            <div class="left-sec">
+                <div class="top-form">
+                    <h3>Informacion de Contacto</h3>
+                    <p>Rellena el formulario y nuestro equipo te dara una respuesta lo antes posible!</p>
+                </div>
+                <div class="middle-form">
+                    <div class="mail-form">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>free-shop@gmail.com.ar</p>
+                    </div>
+                    <div class="phone-form">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+54 9 11 5578 1256</p>
+                    </div>
+                    <div class="location-form">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        <p>Avenida Constitucion, Bravo 75, Buenos Aires</p>
+                    </div>
+                </div>
+                <div class="under-form">
+                    <div>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    </div>
+                    <div>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <div>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                </div>
+                <img src="img/img-sec-form.jpg" alt="">
+            </div>
+            <div class="right-sec">
+                <form action="#" method="post">
+        
+                        <legend>Dejanos tu mensaje.</legend>
+                        <div class="col-12">
+                            <input class="col-8" type="text" id="name" name="name" placeholder="Por favor, ingrese su nombre." required>
+                        </div>
+                        <div class="col-12">
+                            <input class="col-7" type="email" id="email" name="email" placeholder="Por favor, ingrese su dirección de mail." required>
+                        </div>
+                        <div class="col-12">
+                            <textarea class="col-81" type="message" name="message" id="message" cols="20" rows="5" placeholder="Por favor, ingrese su consulta."></textarea>
+                        </div>
+                        <div class="col-121">
+                            <input class="btn-send" type="reset" value="Borrar">
+                            <input class="btn-send" type="submit" value="Enviar">
+                        </div>
+            
+                    
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://kit.fontawesome.com/76f8ddbed4.js" crossorigin="anonymous"></script>
+    <<script src="bootstrap.bundle.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.mjs"></script>
+</body>
+</html>

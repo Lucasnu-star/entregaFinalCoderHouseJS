@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rowdies', cursive;
+}
+.universal-body
+{
+    position: relative;
+}
+.father-body 
+{
+    position: relative;
+}
+.father-body img 
+{
+    width: 100%;
+    height: 120vh;
+}
+.father-body nav
+{
+    position: absolute;
+    width: 100%;
+    
+}
+.father-body nav ul
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    list-style-type: none;
+}
+.father-body nav ul a
+{
+    padding: 13px;
+    text-decoration: none;
+    color: black;
+}
+.father-body nav ul a .ini
+{
+    background-color:#42838D ;
+    padding: 8px 25px 8px 25px;
+    border-radius: 30%;
+}
+.father-body nav ul a .ino
+{
+    padding: 8px 4px 8px 4px;
+}
+.father-body nav ul a .ino:hover
+{
+    border-bottom:2px solid #42838D;
+}
+.tilte-father
+{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+.tilte-father h1
+{
+    margin-left: 3.5em;
+    font-size: 4vw;
+}
+.tilte-father h2
+{
+    margin-left: 5.6em;
+    font-size: 2.5vw;
+    color:#42838D ;
+}
+.queHacemos-father
+{
+    top: 65%;
+    position:absolute;
+    width: 100%;
+}
+.queHacemos-father h3
+{
+    text-align: center;
+    padding: 25px 0 25px 0;
+    font-size: 2vw;
+}
+.content
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.cardd
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #808080;
+    width: 15vw;
+    border-radius: 20%;
+    height: 30vh;
+    background-color: white;
+    
+}
+.fa-shop
+{
+    font-size: 3vw;
+    padding: 0 0 40px 0;
+    color:#42838D ;
+}
+.fa-money-check
+{
+    font-size: 3vw;
+    padding: 0 0 40px 0;
+    color:#42838D ;
+}
+.fa-truck-fast
+{
+    font-size: 3vw;
+    padding: 0 0 40px 0;
+    color:#42838D ;
+}
+.section-2-Father
+{
+    height: 30vh;
+}
+.content-sec2
+{
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    color:#42838D ;
+}
+.one-sec2
+{
+    text-align: center;
+    font-size: 1.4vw;
+    padding: 60px;
+    margin: 30px;
+}
+.one-sec2 h3
+{
+    padding: 0 0 10px 0;
+}
+.shop-fahter
+{
+    margin-top: 3em;
+    width: 100%;
+
+}
+.carrousel
+{
+    text-align: center;
+    padding: 20em 0 20em 0;
+}
+.head-shop
+{
+    display: flex;
+    background-color: #42838D;
+    padding: 20px 0 20px 0;
+}
+.head-shop h3
+{
+    margin-left: 3em;
+    font-size: 1.6vw;
+}
+
+.carrito-head-shop
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2em;
+    width: 80%;
+    list-style-type: none;
+}
+.form-father
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.head-form-father h3
+{
+    margin-top: 350px;
+    font-size: 2vw;
+}
+.head-form-father p
+{
+    text-align: center;
+    padding: 0 0 50px 0;
+    font-size: 1.1vw;
+}
+.father-content
+{
+    display: flex;
+    background-color: white;
+    width: 80vw;
+    height: 100vh;
+    margin-bottom: 5em;
+    box-shadow: -6px 1px 56px 36px rgba(155,155,155,1);
+}
+.left-sec
+{
+    width: 35%;
+    position: relative;
+    color: black;
+}
+.left-sec img
+{
+    width: 100%;
+    height: 100%;
+}
+.top-form
+{
+    position: absolute;
+}
+.top-form h3
+{
+    padding: 100px 0px 0 40px;  
+    font-size: 1.8vw; 
+}
+.top-form p
+{
+    padding: 10px 0 0 40px;   
+    font-size: 1vw; 
+}
+.middle-form
+{
+    position: absolute;
+    top: 32%;
+    width: 100%;
+}
+.under-form
+{
+    display: flex;
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    font-size: 1.7vw;
+}
+.under-form a
+{
+    text-decoration: none;
+}
+.under-form .fa-brands
+{
+    margin-left: 1.2em;
+    color: black;
+}
+.under-form .fa-brands:hover
+{
+    transform: scale(2);
+    transition: all ease-in .7s;
+}
+.mail-form, .phone-form,.location-form
+{
+    display: flex;
+    align-items: center;
+    padding: 2.2em;
+    font-size: 1.2em;
+}
+.mail-form p, .phone-form p,.location-form p
+{
+    margin-left: 2.5em;
+}
+.right-sec 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+}
+
+.right-sec  form legend
+{
+    text-align: start;
+    font-size: 1.9vw;
+    margin-bottom: 2em;
+}
+.col-12
+{
+    display: flex;
+    width: 40vw;
+    
+}
+.col-121
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+
+}
+.btn-send
+{
+    padding: 1em  ;
+    margin: 0 2em 0 2em;
+    background-color:white ;
+    
+}
+.btn-send:hover
+{
+    background-color: rgb(189, 189, 189);
+}
+.col-7
+{
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(189, 189, 189);
+    border: none;
+}
+.col-8
+{
+    width: 100%;
+    height: 5vh;
+    margin-bottom: 2em;
+    background-color: rgb(189, 189, 189);
+    border: none;
+}
+.col-81
+{
+    width: 100%;
+    height: 15vh;
+    margin-top: 2em;
+}
+textarea
+{
+    resize: none;
+    background-color: rgb(189, 189, 189);
+    border: none;
+}
+#contenedor
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.card
+{
+    width: 18vw;
+    margin-top: 1em;
+}
+
+.modal-contenedor
+{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.img-carrito
+{
+    width: 200px;
+    padding: 20px;
+}
+.fa-cart-shopping
+{
+    font-size: 1.2vw;
+
+}
+.parrafo
+{
+    font-weight: 700;
+}
+.navbar
+{
+    background-color: #42838D;
+}
+
+.boton
+{
+    opacity:0;
+}
+.navbar-nav
+{
+    margin-right: 3em;
+
+}
+.nav-item
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1em;
+    
+}
+
+.fa-shopify
+{
+    margin-right: .8em;
+}
+
+
+
+
